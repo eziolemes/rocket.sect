@@ -4,6 +4,12 @@ body {
   font-family: 'JetBrains Mono', sans-serif;
 }
 
+.page {
+  width: 1280px;
+  margin: 0 auto;
+  padding-top: 71px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -25,15 +31,38 @@ span {
   color: #00BFA6;
 }
 
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
 h1, footer {
   color: #FFF;
 }
 
 p {
   color: #C2C2C2;
+  text-align: center;
+  line-height: 28px;
 }
 
 main {
   display: flex;
   width: 1092px;
+  gap: 82px;
+
+  margin: 101px auto 157px;
+}
+
+footer {
+  text-align: center;
+}
+
+.line {
+  width: 568px;
+  height: 0px;
+
+  margin: 0 auto 27px;;
+
+  border: 1px solid #00BFA6;
 }
